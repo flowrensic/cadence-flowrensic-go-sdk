@@ -1,8 +1,6 @@
 # Flowrensic for Cadence Go SDK
 
-Proof of concept. This package is an early preview and not ready for production. Its API can change in any version.
-
-Flowrensic runs beside your durable workflow engine and finds problems in your workflows. Flowrensic for Cadence is a proof of concept: it finds problems in Cadence workflows. Its server has 20 finding classes ported from Temporal and one of its own, Activity retrying, and a findings page with filters for severity, class, domain, workflow type and status.
+Flowrensic runs beside your durable workflow engine and finds problems in your workflows. Flowrensic for Cadence finds problems in Cadence workflows. Its server has 20 finding classes ported from Temporal and one of its own, Activity retrying, and a findings page with filters for severity, class, domain, workflow type and status.
 
 This is the Go SDK. It connects a Cadence Go worker to your Flowrensic for Cadence server.
 
